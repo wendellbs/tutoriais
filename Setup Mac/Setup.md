@@ -3,13 +3,13 @@
 
 ##  Setup terminal
 - [ ] [iTerm](https://www.iterm2.com/downloads.html)
-- [ ] [Homebrew]([https://brew.sh/index_pt-br](https://brew.sh/index_pt-br))
+- [ ] [Homebrew](https://brew.sh/index_pt-br)
 
 ### Softwares no terminal
-- [ ] Git, ZSH, ZSH-Completions, Oh-My-ZSH
+- [ ] Git, ZSH, ZSH-autosuggestions, Oh-My-ZSH
 ```
 brew install git
-brew install zsh zsh-completions
+brew install zsh zsh-autosuggestions
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 - [ ] Fontes Powerline
@@ -25,7 +25,7 @@ rm -rf fonts
 ZSH_THEME="agnoster"
 ```
 - [ ] Mudar esquema de cores do iterm
-	- [Baixar os temas]([schemes.zip](https://github.com/wendellbs/tutoriais/files/3055780/schemes.zip))
+	- [Baixar os temas](https://iterm2colorschemes.com/)
 	- Importar o tema `Brogrammer.itermcolors` no iTerm
 	- Mudar cor do auto-suggestion:
 ![Screen Shot 2019-04-08 at 15 39 08](https://user-images.githubusercontent.com/13970064/55748231-7af17100-5a14-11e9-9cf3-39af7bca0976.png)

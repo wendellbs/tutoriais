@@ -6,12 +6,35 @@
 - [ ] [Homebrew](https://brew.sh/index_pt-br)
 
 ### Softwares no terminal
-- [ ] Git, ZSH, ZSH-autosuggestions, Oh-My-ZSH
+- [ ] Git, ZSH, Oh-My-ZSH
 ```
 brew install git
-brew install zsh zsh-autosuggestions
+brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+OBS: Problem wiht permission on zsh session
+
+* Adds this on `.zshrc` file:
+```
+ZSH_DISABLE_COMPFIX=true
+source $ZSH/oh-my-zsh.sh
+```
+
+- [ ] zsh-autosuggestions
+
+1 - Clone this repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins)
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+2 - Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
+
+```
+plugins=(zsh-autosuggestions)
+```
+3 - Start a new terminal session.
+
 - [ ] Fontes Powerline
 ```
 git clone https://github.com/powerline/fonts.git --depth=1

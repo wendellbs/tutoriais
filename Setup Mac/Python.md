@@ -3,12 +3,14 @@
 Configurando ambiente Python no MacOS.
 
 
-## Instalação
 
+## Instalação
+- [Install pyenv](https://www.mediaglasses.blog/2021/10/30/managing-python-on-macos-monterey/)
+```
     brew install pyenv
     brew install pyenv-virtualenv
     brew install pyenv-virtualenvwrapper
-
+```
 ## Criação dos repositórios
 
     # Todos meus virtualenvs ficam em...
@@ -105,6 +107,9 @@ Cria o virtualenv `~/.ve/proj3` e a pasta do projeto `~/workspace/proj3` com a v
 	```
 	rmvirtualenv tools3
 	```
+
+### Userful commands for virtualenv-wrapper
+- [Commands](https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html)
 # Referências
 * [Guia definitivo para organizar meu ambiente Python](https://medium.com/welcome-to-the-django/guia-definitivo-para-organizar-meu-ambiente-python-a16e2479b753)
 * [pyenv](https://github.com/pyenv/pyenv)
